@@ -16,7 +16,7 @@ export const Projects = () => {
   const wpprojects = [
     {
       title: "Wall Street Metal",
-      description: "Design & Development",
+      description: "The precious metals market is built for corporations, governments, and fund managers. We’re built for individuals like retired veterans and small business owners. We’re here for you.",
       imgUrl: wsmWpImg,
       webLink: 'https://wallstreetmetals.com/',
     },
