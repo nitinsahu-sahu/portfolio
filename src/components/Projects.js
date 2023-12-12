@@ -22,37 +22,37 @@ export const Projects = () => {
     },
     {
       title: "Rock Star",
-      description: "Design & Development",
+      description: "Rockstar Sealing Systems is a leading provider of cleaning and sealing solutions for all natural stone surfaces.",
       imgUrl: rsWpImg,
       webLink: 'https://www.rockstarsealing.com/',
 
     },
     {
       title: "Serta",
-      description: "Design & Development",
+      description: "Discover a comfortable. supportive matress.",
       imgUrl: sWpImg,
       webLink: 'https://www.serta.com/',
 
     },
     {
       title: "SkipStone",
-      description: "Design & Development",
+      description: "We secure our financial resources independently, enabling us to produce economical, cost-effective films.",
       imgUrl: ssWpImg,
       webLink: 'https://skipstonepictures.com/',
 
     },
     {
       title: "Pratham Career Institue",
-      description: "Design & Development",
+      description: "Our aim is not only to get you to the top medical college but more importantly we also take you on the path of realization to make you discuss your latest potential and top this potential to bring out best of you.",
       imgUrl: pciWpImg,
-      webLink: wsmWpImg,
+      webLink: 'https://prathamcareerinstitute.com/',
 
     },
   ];
   const reactprojects = [
     {
       title: "Whizoid Studio",
-      description: "Design & Development",
+      description: "Crafting Solutions For The Modern World.",
       imgUrl: wzReactImg,
       webLink: "https://www.whizoid.com/",
     },
@@ -60,7 +60,7 @@ export const Projects = () => {
   const mernprojects = [
     {
       title: "Kareo",
-      description: "Design & Development",
+      description: "Kareo and PatientPop have joined forces to improve the patient experience and fully support providers, ushering in a new era of connected practice.",
       imgUrl: kareoMernImg,
       webLink: 'https://www.kareo.com/ehr',
     },
