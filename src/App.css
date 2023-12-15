@@ -296,7 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, #30c5d2 -5.91%, #471069 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -471,7 +471,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #30c5d2 -5.91%, #471069 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -563,7 +563,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #30c5d2 -5.91%, #471069 111.58%);
   padding: 60px 0 200px 0;
 }
 
@@ -672,7 +672,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.2em;
 }
 
-.new-email-bx {
+.new-download-bx {
   background: #fff;
   padding: 5px;
   border-radius: 20px;
@@ -682,9 +682,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
 }
 
-.new-email-bx::before {
+.new-download-bx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #30c5d2 -5.91%, #471069 111.58%);
   border-radius: 20px;
   position: absolute;
   z-index: -1;
@@ -694,7 +694,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: -1px;
 }
 
-.new-email-bx::after {
+.new-download-bx::after {
   content: "";
   background: #fff;
   border-radius: 20px;
@@ -706,7 +706,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
 }
 
-.new-email-bx input {
+.new-download-bx input {
   width: 100%;
   color: #121212;
   font-weight: 500;
@@ -715,8 +715,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 
-.new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+.new-download-bx button {
+  background: linear-gradient(90.21deg, #30c5d2 -5.91%, #471069 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;

@@ -14,11 +14,11 @@ export const Newsletter = () => {
     <Col lg={12}>
       <div className="newsletter-bx wow slideInUp">
         <Row>
-          <Col lg={12} md={6} xl={5}>
+          <Col lg={12} md={6} xl={5} style={{alignContent:'center', display:'grid'}}>
             <h3>Download Resume</h3>
           </Col>
           <Col md={6} xl={7}>
-            <div className="new-email-bx" style={{ justifyContent: 'center' }}>
+            <div className="new-download-bx" style={{ justifyContent: 'center' }}>
               <button onClick={() => { downloadPdf(RESUME_PDF) }}>Download</button>
             </div>
           </Col>

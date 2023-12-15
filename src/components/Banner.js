@@ -61,8 +61,10 @@ export const Banner = () => {
                     web applications. With 3 years of hands-on experience in
                     full-stack development, I aim to contribute my proficiency in building robust back-end
                     systems and dynamic front-end interfaces to drive the success of GBH Technologies pvt Ltd.
-                    Passionate about staying updated with emerging technologies and delivering high-quality code.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                    Passionate about staying updated with emerging technologies and delivering high-quality code.
+                  </p>
+
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                 </div>}
             </TrackVisibility>
           </Col>
