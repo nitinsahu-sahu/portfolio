@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap";
-const RESUME_PDF = 'http://localhost:3000/Nitin_latest.pdf'
+const RESUME_PDF = 'https://nitinsahu-sahu.github.io/protfolio/Nitin_latest.pdf'
+const RESUME_PDF1 = 'http://localhost:3000/Nitin_latest.pdf'
 export const Newsletter = () => {
   const downloadPdf = (url) => {
     const fileName = url.split('/').pop()
