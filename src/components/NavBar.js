@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import SocialLink from "./common/Common";
+import {SocialLink} from "./common/Common";
 
 export const NavBar = () => {
 

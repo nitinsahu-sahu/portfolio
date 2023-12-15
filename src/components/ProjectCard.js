@@ -3,7 +3,6 @@ import { Col } from "react-bootstrap";
 export const ProjectCard = ({ title, description, imgUrl, webLink }) => {
   return (
     <Col size={12} sm={6} md={4}>
-
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <a href={webLink} target="__blank" style={{color:'white '}}>
@@ -13,7 +12,6 @@ export const ProjectCard = ({ title, description, imgUrl, webLink }) => {
           </div>
         </a>
       </div>
-
     </Col>
   )
 }
