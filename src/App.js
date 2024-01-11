@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
+import { AboutMe, Contact, Footer, Navbar, Portfolio, Resume } from './components';
 
 function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="container my-5 bg-dark border border-5" style={{ borderRadius: 40 }}>
+            <div className='container'>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<AboutMe />} />
+                    <Route path="/resume" element={<Resume />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+                <Footer />
+            </div>
+
+        </div>
+    );
 }
 
 export default App;
